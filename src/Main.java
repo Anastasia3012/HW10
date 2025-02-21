@@ -39,7 +39,7 @@ public class Main {
         for (double element : repayment) {
             sum2 = sum2 + element;
         }
-        average = sum2 / 5;
+        average = sum2 / repayment.length;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей.");
 
 
@@ -48,5 +48,6 @@ public class Main {
         for (int i = reverseFullName.length - 1; i >=0; i--) {
             System.out.print(reverseFullName[i]);
         }
+
     }
 }
