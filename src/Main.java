@@ -45,6 +45,14 @@ public class Main {
 
 //        Задача4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+//        int i = 0;
+//        for (int j = reverseFullName.length - 1; i <= j; j--){
+//           char t = reverseFullName[i];
+//            reverseFullName[i] = reverseFullName[j];
+//            reverseFullName[j] = t;
+//            System.out.print(reverseFullName[i]);
+//        }
+
         for (int i = reverseFullName.length - 1; i >=0; i--) {
             System.out.print(reverseFullName[i]);
         }
